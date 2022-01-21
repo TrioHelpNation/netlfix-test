@@ -1,0 +1,38 @@
+@charset "utf-8";
+*{
+margin: 0;
+padding: 0;
+
+}
+body{
+background-image: url(https://i.postimg.cc/900gfVLB/Ml.jpg);
+background-position: center;
+background-size: cover;
+box-sizing: border-box;
+
+}
+.nav-area{
+background:rgb(0,0,0);
+text-align: center;
+
+}
+.nav-area ul{
+display: inline-flex;
+list-style: none;
+color: #fff;
+}
+.nav-area ul li{
+width: 120px;
+margin: 15px;
+padding: 15px;
+}
+.nav-area ul li a{
+text-decoration: none;
+color: #fff;
+
+}
+.active, .nav-area ul li:hover{
+background: #424949;
+border-radius: 3px;
+
+}
